@@ -4,7 +4,6 @@
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-03-14T18:23:30.404+01:00",
   "LastSaveTime": "2025-05-04T09:15:41.061+02:00",
-  "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 1,
   "Prefs_Snapping": 0,
@@ -63,6 +62,7 @@
     "TEST MergeSplit",
     "#",
     "BuzzTest"
+    "test"
   ],
   "StarredList":[
     {
@@ -96,6 +96,14 @@
     {
       "Name":"BuzzTest",
       "IsCollection":false
+    },
+    {
+      "Name":"OTHER",
+      "IsCollection":true
+    },
+    {
+      "Name":"test",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -105,7 +113,7 @@
       "Name":"BASICS"
     },
     {
-      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8","IN-16","OUT-16","IN-32","OUT-32"],
       "IsToggledOpen":false,
       "Name":"IN/OUT"
     },
@@ -142,7 +150,12 @@
     {
       "Chips":["PULSE","TEST MergeSplit"],
       "IsToggledOpen":true,
-      "Name":"OTHER"
+      "Name":"OTHER1"
+    },
+    {
+      "Chips":["16-8BIT","16-4BIT","16-1BIT","8-16BIT","4-16BIT","1-16BIT","32-1BIT","32-4BIT","32-8BIT","32-16BIT","1-32BIT","4-32BIT","8-32BIT","16-32BIT","BUS-16","BUS-32"],
+      "IsToggledOpen":false,
+      "Name":"OTHER2"
     }
   ]
 }
